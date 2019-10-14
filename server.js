@@ -10,5 +10,5 @@ app.use((req, res) => {
 const PORT = 8000;
 
 app.listen(PORT, () => {
-  Console.log(`Server is listening at http://localhost:${PORT}`);
+  console.log(`Server is listening at http://localhost:${PORT}`);
 });
